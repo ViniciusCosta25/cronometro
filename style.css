@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/stopwatch-on-digital-background-picture-id468828994);
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+body {
+    text-shadow: 1px 1px 5px black;
+    color: blue;
+    margin-top: 15%;
+    text-align: center;
+}
+*{
+    font-family: 'Merriweather', serif;
+    margin: 0 auto ;
+    padding: 0;
+}
+.max-width {
+    background-image: linear-gradient(to right, #2f00ff , #b4b4b4);
+    border-radius: 22;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    max-width: 700px;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body div button{
+    font-style: bold;
+    background: rgb(0, 255, 13);
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+}
+body div button:hover{
+    background: blue;
+}
+.stopwatch{
+    margin: 20px;
+}
